@@ -1,0 +1,17 @@
+.sidenav-main{
+    width: 6vw;
+}
+.selected-icon{
+    color: #3ebcb3;
+    background-color: white;
+}
+.selected-bar{
+    border-right: solid !important; 
+    border-right-color: #3ebcb3 !important;
+}
+::ng-deep button:focus{
+    background-color: white!important;
+    color: #3ebcb3 !important;
+    border-right: solid !important; 
+    border-right-color: #3ebcb3 !important;
+}
